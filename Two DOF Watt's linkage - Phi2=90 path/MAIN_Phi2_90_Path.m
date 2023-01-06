@@ -1,6 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%------------ Watt's Linkage: Continuous Equilibrium ------------%%%
-%%%------------------ Internal Torsional Springs ------------------%%%
+%%%------- Two-DOF Watt's Linkage: Continuous Equilibrium ---------%%%
 %  "Programming Continuous Equilibrium Motions in Multi-DOF Systems" %
 %%% ------------------ Redoutey, M., Filipov, E.T. ----------------%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,7 +8,7 @@ close all
 clear 
 clc
 
-%% Load two-DOF Watt's linkage kinemtics
+%% Load two-DOF Watt's linkage kinematics
 load('GetGeo_Phi2_90_Path','Phi1','Phi2','PHI1','PHI2','ThetaA','ThetaB','ThetaC','ThetaD','ThetaE','PE_G');
 
 %% Define path
