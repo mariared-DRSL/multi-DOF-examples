@@ -47,7 +47,7 @@ function [] = GetQuiver(Phi1,pathPhi1,Phi2,pathPhi2,PE_T)
 %         end
 %     end
 %     
-    figure('Position',[-798,-163,560,420])
+    figure()
     quiver(Phi1*180/pi,Phi2*180/pi,desX,desY,'b')
     hold on
     quiver(Phi1*180/pi,Phi2*180/pi,Fx,Fy,'r')
